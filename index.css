@@ -1,0 +1,107 @@
+.static-box{
+    background-color: aquamarine; width:250px; height:250px; position: static;
+}
+
+.relative-box{
+    background-color:rgb(72, 171, 105); width: 250px; height:250px; position:relative; top:20px; left:30px;
+}
+
+.container{
+    background-color:rgb(163, 169, 236); height: 300px; width:300px; position: relative;
+}
+
+.absolute-box{
+    background-color: rgb(192, 143, 234); width: 250px; height:250px; position:absolute; top: 10px; left: 15px;
+}
+
+.sticky-box{
+    background-color:cornflowerblue; height:50px; width:250px; position:sticky; top:0px; padding-left:400px;
+}
+
+.content{
+    background-color: aqua; 
+}
+
+.background-image{
+    width: 250px; height:250px; background-image: url('96c342121cad4ea81c8eb07bdb92d585-Royal Palace Of Madrid.jpg'); 
+}
+
+.background-image-repeat{
+    width:500px; height:300px; background-image:url('crown.jpg'); background-repeat:repeat; background-size:20%; color:white;
+}
+
+.box1{
+    background-color: red; width:250px; height:250px; z-index:1; top:50px; left:50px; position: absolute;
+}
+
+.box2{
+    background-color:orange; width:250px; height:250px; z-index:2; top:100px; left:100px; position:absolute;
+}
+
+.contain{
+    background-color: rgb(130, 130, 59); height:400px; width:400px; position:absolute;
+}
+
+.flex-container{
+    display:flex; flex-direction: row; background-color:crimson; margin-top:400px;
+}
+
+.child{
+    background-color: cadetblue; border: solid 1px black;
+}
+
+.flex-container-2{
+    background-color:darkslategrey; display:flex ; flex-direction:column;
+}
+
+.child2{ 
+ background-color:darkolivegreen; border: solid black 1px;
+}
+
+.flex-container-3{
+    background-color: darkturquoise; display:flex; justify-content: space-between;
+}
+
+.flex-container-4{
+     background-color:darkorange; display:flex; flex-wrap: wrap; flex-direction: row; gap:10px;
+}
+
+.child4{
+    background-color: green; border: black 1px solid; flex: 1 0 200px;
+}
+
+.flex-container-5{
+    background-color: rgb(190, 219, 248); display: flex; align-items:center; flex-direction:row; height:200px;
+}
+
+.child5{
+    width:70px; height:200px;background-color: deeppink; 
+}
+
+.child5-2{
+    width:70px; height:150px; background-color:hotpink;
+}
+
+.child5-3{
+    width:70px; height:100px; background-color:blueviolet
+}
+
+.line{
+    background-color:rgb(130, 64, 64); width:400px; border: black 1px dashed;
+}
+
+.flex-container-6{
+    display:flex; align-content:space-between; flex-wrap: wrap; background-color:rgb(137, 137, 137); height:320px;
+}
+
+.flex-container-7{
+    background-color:rgb(139, 128, 240); display:flex;
+}
+
+.cc{
+    background-color:palegreen; flex-grow:1;
+}
+
+.c2{
+    background-color:palegreen; flex-grow:2;
+}
